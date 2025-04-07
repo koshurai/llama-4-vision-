@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Minimal CSS
+# Minimal CSS with dark theme for results
 def set_custom_css():
     st.markdown("""
     <style>
@@ -36,7 +36,8 @@ def set_custom_css():
             background-color: #333333;
         }
         .analysis-result {
-            background-color: #f8f9fa;
+            background-color: #000000;
+            color: white;
             border-radius: 8px;
             padding: 1rem;
             margin-top: 1rem;
