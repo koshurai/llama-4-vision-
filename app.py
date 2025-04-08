@@ -190,6 +190,7 @@ def analyze_image(api_key, image, prompt):
 # App layout
 def main():
     st.title("〄 NEURAVISION 2.0")
+    st.image('blob.png',width=300)
     st.markdown("### QUANTUM IMAGE DECODER // GROQ-LLaMA INTEGRATION")
     st.markdown("---")
     
